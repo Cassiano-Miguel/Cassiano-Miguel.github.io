@@ -1,0 +1,99 @@
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@font-face { font-family: FleatyNote; src: url('FeatlyNoteRegular-mLmEP.ttf'); } 
+      h1 {
+         font-family: FleatyNote
+      }
+
+#text{
+    color:#5948BA;
+    text-align: center;
+    font-size: 200%;
+    font-family: FleatyNote;
+    border: 4px solid #5948BA;
+    background-color:#DECBFF;
+    background-image: linear-gradient(#e8dbff,#DECBFF);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.images img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 4px solid #5343b8;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.5s;
+}
+
+.images img:hover {
+    border: 4px solid #2b235e;
+}
+
+#icons{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    transition: all 0.5s;
+}
+
+#icons:hover {
+    width: 150px;
+    height: 150px;
+}
+
+#arrow{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+#arrow:hover {
+    width: 150px;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #textdesc{
+    color:#5948BA;
+    text-align: center;
+    font-size: 150%;
+    font-family: FleatyNote;
+    background-color:#DECBFF;
+    background-image: linear-gradient(#e8dbff,#DECBFF);
+    display: table;
+    border: 4px solid #5343b8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#background{
+  background-image: url('Imagens/Icones/Notebook.png');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

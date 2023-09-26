@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fanarts - Galeria de Desenhos</title>
+
+        <link rel="icon" type="image/x-icon" href="Imagens/Icones/Logo.png">
+        
+        <link rel="stylesheet" href="Style.css">
+
+        <script type="text/javascript" src="Script.js"></script>
+
+        <meta charset="UTF-8">
+        
+        <h1 id="text" style="font-size: 400%;">
+        Fanarts
+        </h1>
+
+    </head>
+
+    <body id="background">
+
+        <a href="index.html">
+        <img id="arrow"src="Imagens/Icones/Arrow.png" alt="Seta-Voltar">   
+        </a>
+
+        <section>
+            <p id="text">
+         Fanarts (Arte baseada em obras famosas, criadas por fãs).<br> Adoro fazer desenhos inspirados em filmes, jogos e outros!
+        </p>
+
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+        style="color:#5948BA;
+        text-align: center;
+        font-size: 200%;
+        font-family: FleatyNote;
+        border: 4px solid #5948BA;
+        background-color:#DECBFF;
+        background-image: linear-gradient(#e8dbff,#DECBFF);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;">
+        Curiosidade!</div>
+
+        <script>
+        function mOver(obj) {
+        obj.innerHTML = "Nos EUA e em outros países ocidentais, a definição de fanart data pelo menos dos anos sessenta e setenta.<br> Foi especialmente prevalente nos fandoms de Star Trek e Star Wars. Fanart também foi criado para livros muito populares,<br> como O Senhor dos Anéis."
+        }
+
+        function mOut(obj) {
+        obj.innerHTML = "Curiosidade!"
+        }
+        </script>
+        
+        <center>
+            <div class="images">
+    
+                <a target="_blank" href="Imagens/Fanart/001_4.png">
+                <img src= "Imagens/Fanart/001_4.png" alt="Desenho do Haunter, de Pokémon" style= "width:450px;height:600px">
+                </a>
+                <div class="desc" id="textdesc">
+                    O Haunter é um pokémon que eu gosto muito.<br>
+                    Seu design é assustador,<br>
+                    mas acho que ele parece bem legal.<br>
+                </div>
+    
+                <a target="_blank" href="Imagens/Fanart/002_4.png">
+                <img src= "Imagens/Fanart/002_4.png" alt="Desenho do personagem Kirby" style= "width:450px;height:600px">
+                </a>
+                <div class="desc" id="textdesc">
+                    Os jogos do Kirby são super divertidos,<br>
+                    e o seu design, mesmo não sendo complexo,<br>
+                    é muito fofo e reconhecível!<br>
+                </div>
+                
+                </section>
+            </center>
+
+    </body>
+
+    <footer> 
+        <p id="text"> Email de contato: cassimiguelalmeida@gmail.com  </p>
+    </footer>
+    
+</html>
